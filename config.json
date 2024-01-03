@@ -1,0 +1,29 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_url":"mysql://root:@localhost/cleanblog",
+        "production_url":"mysql://root:@localhost/cleanblog",
+        "fb_url":"https://facebook.com",
+        "tw_url":"https://twitter.com/cleanblog",
+        "git_url":"https://github.com",
+        "google_url":"https://www.google.com",
+        "gamil_user":"tausifanwer81gmail.com",
+        "gamil_password":"grcn fxin pkfj blwd",
+        "about_text":"Hi my name Tausif and i created this project",
+        "no_of_posts":3,
+        "login_img":"login.svg",
+        "admin_user":"tausif",
+        "admin_password": "tausifanwer",
+        "upload_location":"E:\\blog_project_learning\\static\\img"
+
+
+    }
+
+
+
+
+
+
+
+}
