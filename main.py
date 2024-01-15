@@ -50,7 +50,8 @@ class Posts(db.Model):
 
 
 
-
+@app.route("/")
+@app.route("/home")
 @app.route("/index")
 def home():
     posts = Posts.query.filter_by().all()
