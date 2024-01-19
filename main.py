@@ -30,7 +30,7 @@ else:
 db = SQLAlchemy(app)
 
 
-class Contacts(db.Model):
+class contacts(db.Model):
     sno = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False)
     email = db.Column(db.String(20),unique=True, nullable=False)
